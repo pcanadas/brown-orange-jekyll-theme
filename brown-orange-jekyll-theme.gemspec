@@ -6,11 +6,23 @@ Gem::Specification.new do |spec|
   spec.authors       = ["pcanadas"]
   spec.email         = ["pcanadas15@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Brown-Orange is a Jekyll theme for GitHub Pages."
+  spec.homepage      = "https://github.com/pcanadas/brown-orange-jekyll-theme.git."
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
+  end
 
-  spec.add_runtime_dependency "jekyll", "~> 4.3"
+  spec.required_ruby_version = ">= 2.4.0"
+
+  spec.platform = Gem::Platform::RUBY
+  spec.add_runtime_dependency "jekyll", "> 3.5", "< 5.0"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.0"
+  spec.add_development_dependency "html-proofer", "~> 3.0"
+  spec.add_development_dependency "rubocop-github", "~> 0.16"
+  spec.add_development_dependency "w3c_validators", "~> 1.3"
+
+
 end
+
