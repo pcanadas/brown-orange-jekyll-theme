@@ -20,7 +20,7 @@ google_analytics:
 highlighter: rouge
 #timezone: Europe/Madrid
 encoding: UTF-8
-theme: brown-orange-jekyll-theme
+#theme: brown-orange-jekyll-theme
 
 # Sass/SCSS
 sass:
