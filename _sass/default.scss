@@ -1,7 +1,10 @@
+// Color for top bar, links, etc
+$theme-color: #EB6E04; // Orange
+
 * {
     margin: 0;
     padding: 0;
-    --main-color: { site.data.theme.highlight_color };
+    --main-color: #{$theme-color};
   }
   
   html, body {
