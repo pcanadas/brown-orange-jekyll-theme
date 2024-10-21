@@ -1,0 +1,33 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#EB6E04' #Naranja
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: pcanadas
+  #bitbucket: johndoe
+  #hacker_news: johndoe
+  #stackexchange: johndoe
+  #stackoverflow: johndoe
+  #twitter: johndoe
+  #facebook: johndoe
+  #tumblr: johndoe
+  linkedin: patricia-canadas
+  #gplus: johndoe
+  #gravatar: johndoe
+  #flickr: johndoe
+
+# "Hi, I'm _______"
+name: Patricia Cañadas
+email: pcanadas15@gmail.com
+tagline: "Simplicity as a prerequisite for reliability"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: false
