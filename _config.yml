@@ -10,8 +10,8 @@ email: pcanadas15@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My projects...
 github.url: pcanadas.github.io
-baseurl: /brown-orange-jekyll-theme # the subpath of your site, e.g. /blog
-url: https://github.com/pcanadas/brown-orange-jekyll-theme.git # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: pcanadas/brown-orange-jekyll-theme # the subpath of your site, e.g. /blog
+url: https://github.com/ # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username:  pcanadas
 show_downloads: false
